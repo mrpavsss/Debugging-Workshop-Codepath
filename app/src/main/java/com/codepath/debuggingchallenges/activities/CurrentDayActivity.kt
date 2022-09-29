@@ -13,7 +13,6 @@ class CurrentDayActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_current_day)
         tvDay = findViewById<View>(R.id.tvDay) as TextView
-        tvDay?.setText(dayOfMonth)
     }
 
     private val dayOfMonth: Int

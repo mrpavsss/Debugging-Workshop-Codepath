@@ -11,6 +11,7 @@ class ChangeBackgroundActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_change_background)
+        findViewById<View>(android.R.id.content).setBackgroundColor(nextColor)
     }
 
     fun onGoClick(view: View?) {
